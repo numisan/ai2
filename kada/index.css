@@ -1,0 +1,62 @@
+.title {
+  margin-left: 10px;
+}
+
+/* ===== Article list ===== */
+
+.article {
+  list-style: none;
+  padding: 0;
+}
+
+/* Article item */
+.article-item {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px 20px 20px 20px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  border: solid 1.5px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.article-title {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.article-title a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.article-title a:hover {
+  text-decoration: underline;
+}
+
+/* Description */
+.article-description {
+  font-size: 16px;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* Tags */
+.article-tags {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+
+.article-tag {
+  font-size: 12px;
+  margin-right: 5px;
+  padding: 6px 10px;
+  color: #fff;
+  background-color: #6091d3;
+  border: solid 2px #6091d3;
+  border-radius: 10px;
+}
+
